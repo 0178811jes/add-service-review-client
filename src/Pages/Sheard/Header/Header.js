@@ -8,6 +8,7 @@ const Header = () => {
 
 
     const menuItem = <>
+        <li className="font-semibold"><Link to='/blogs'>Blogs</Link></li>
         <li className="font-semibold"><Link to='/'>Home</Link></li>
         <li className="font-semibold"><Link to='/login'>Login</Link></li>
             <SocialLogin></SocialLogin>
@@ -34,8 +35,8 @@ const Header = () => {
                         {menuItem}
                     </ul>
                 </div>
-                <Link to="/blogs" className="btn btn-ghost normal-case text-xl">
-                   Blogs
+                <Link to="/" className="btn btn-ghost normal-case text-xl">
+                   
                 </Link>
             </div>
             <div className="navbar-center hidden lg:flex">

@@ -1,6 +1,5 @@
 [
     {
-      "_id":"635a0c0b64a6d231228942ae",
       "rating": { "number": 4.5, "badge": "Excellent" },
       "price": 488,
       "title": "service of Facebook",
@@ -8,7 +7,6 @@
       "description":  "Facebook allows you to send messages and post status updates to keep in touch with friends and family. You can also share different types of content, like photos and links. But sharing something on Facebook is a bit different from other types of online communication. Unlike email or instant messaging, which are relatively private, the things you share on Facebook are more public, which means they'll usually be seen by many other people.While Facebook offers privacy tools to help you limit who can see the things you share, it's important to understand that Facebook is designed to be more open and social than traditional communication tools.like photos and links. But sharing something on Facebook is a bit different from other types of online communication. Unlike email or instant messaging, which are relatively private, the things you share on Facebook are more public, which means they'll usually be seen by many other people.While Facebook offers privacy tools to help you limit who can see the things you share, it's important to understand that Facebook is designed to be more open and social than traditional communication tools. We'll talk more about sharing and controlling your privacy in our lessons on Facebook privacy and adjusting privacy settings."
     },
     {
-		"_id": "635a0c0b64a6d231228942af",
       "rating": { "number": 4.5, "badge": "Excellent" },
       "price": 488,
       "title": "Service of Youtube",
@@ -17,7 +15,6 @@
     },
 
     {
-       "_id":"635b591a1dafe382a9da8c96",
       "rating": { "number": 4.8, "badge": "Excellent" },
       "price": 400,
       "title": "Service of MongoDB",
@@ -28,7 +25,6 @@
 
     },
     {
-       "_id":"635b5afc1dafe382a9da8c98",
       "rating": { "number": 4.3, "badge": "Excellent" },
       "price": 400,
       "title": "Service of Proggraming",
@@ -37,7 +33,6 @@
     },
 
     {
-       "_id":"635b5b691dafe382a9da8c99",
       "rating": { "number": 4.5, "badge": "Excellent" },
       "price": 980,
       "title": "Service of Python Proggram",
@@ -45,7 +40,6 @@
       "description": "Conditional statements help us to execute a particular block for a particular condition. In this tutorial, we will learn how to use the conditional expression to execute a different block of statements. Python provides if and else keywords to set up logical conditions. The elif keyword is also used as conditional statement.Python has become a staple  data science allowing data analysts and other professionals to use the language to conduct complex statistical calculations create data visualizations build machine learning algorithms manipulate and analyze data, and complete other data-related tasks.Python can build a wide range of different data visualizations like line and bar graphs pie charts histograms and 3D plots. Python also has a number of libraries that enable coders to write programs data analysis and machine learning more quickly and efficiently like TensorFlow and Keras.Python is often develop the back end of a website or application—the parts that a user doesnt see. Pythons role web development can include sending data to and from servers processing data and communicating databases URL routing and ensuring security. Python offers several frameworks web development Commonly used ones include Django and Flask."
     },
     {
-       "_id":"635b5ba51dafe382a9da8c9a",
       "rating": { "number": 4.5, "badge": "Excellent" },
       "price": 980,
       "title": "Service of Whatsapp",
@@ -54,7 +48,6 @@
     },
 
     {
-       "_id":"635b5ba51dafe382a9da8c3s",
       "rating": { "number": 4.5, "badge": "Excellent" },
       "price": "60",
       "title": "Service of ProggramingHero website logo",
@@ -63,7 +56,6 @@
     },
 
     {
-       "_id":"635b5ba51dafe382a9da5n9a",
       "rating": { "number": 4.5, "badge": "Excellent" },
       "price": 50 ,
       "title": "Service of Python software",
