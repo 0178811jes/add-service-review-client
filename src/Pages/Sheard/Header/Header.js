@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { Link } from 'react-router-dom';
+import SocialLogin from '../SocialLogin/SocialLogin';
 
 
 const Header = () => {
@@ -9,7 +10,7 @@ const Header = () => {
     const menuItem = <>
         <li className="font-semibold"><Link to='/'>Home</Link></li>
         <li className="font-semibold"><Link to='/login'>Login</Link></li>
-        
+            <SocialLogin></SocialLogin>
     </>
 
 
