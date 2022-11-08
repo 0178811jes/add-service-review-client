@@ -1,0 +1,73 @@
+[
+    {
+      "_id":"635a0c0b64a6d231228942ae",
+      "rating": { "number": 4.5, "badge": "Excellent" },
+      "price": 488,
+      "title": "service of Facebook",
+      "image_url": "https://ibb.co/qRgm9kQ",
+      "description":  "Facebook allows you to send messages and post status updates to keep in touch with friends and family. You can also share different types of content, like photos and links. But sharing something on Facebook is a bit different from other types of online communication. Unlike email or instant messaging, which are relatively private, the things you share on Facebook are more public, which means they'll usually be seen by many other people.While Facebook offers privacy tools to help you limit who can see the things you share, it's important to understand that Facebook is designed to be more open and social than traditional communication tools.like photos and links. But sharing something on Facebook is a bit different from other types of online communication. Unlike email or instant messaging, which are relatively private, the things you share on Facebook are more public, which means they'll usually be seen by many other people.While Facebook offers privacy tools to help you limit who can see the things you share, it's important to understand that Facebook is designed to be more open and social than traditional communication tools. We'll talk more about sharing and controlling your privacy in our lessons on Facebook privacy and adjusting privacy settings."
+    },
+    {
+		"_id": "635a0c0b64a6d231228942af",
+      "rating": { "number": 4.5, "badge": "Excellent" },
+      "price": 488,
+      "title": "Service of Youtube",
+      "image_url": "https://ibb.co/cQG915F",
+      "description": "A YouTube channel description is similar to the About Page of a website. It appears under the tab of your channel's YouTube page.The YouTube channel description conveys to potential viewers what your content will cover including the issues you tackle and the communities you serve. The goal is to turn a one-time viewer into a subscriber and consumer of your content. You'll be able to add this when setting up your YouTube channel.As a YouTube creator your primary goal is to attract viewers and turn them into subscribers often using your channel description. With that in mind, be sure to use keywords that your intended audience would use to search for your content.Every YouTube video includes a description that can be found under the viewport of the video.Additionally every video needs a unique description to increase the likelihood of your video being found when someone is searching for a particular topic.A YouTube content creator’s video description attracts and converts an audience. Therefore, it’s crucial that you optimize your video descriptions for SEO."
+    },
+
+    {
+       "_id":"635b591a1dafe382a9da8c96",
+      "rating": { "number": 4.8, "badge": "Excellent" },
+      "price": 400,
+      "title": "Service of MongoDB",
+      "image_url": "https://ibb.co/Df9sgd3",
+      "description": "CRUD (Create, Read, Update, Delete) operations allow you to work with the data stored in MongoDB. The CRUD operation documentation is categorized in two sections: Read Operations find and return documents stored within your MongoDB database. Write Operations insert, modify, or delete documents in your MongoDB database.CRUD (Create, Read, Update, Delete) operations allow you to work with the data stored in MongoDB. The CRUD operation documentation is categorized in two sections: Read Operations find and return documents stored within your MongoDB database. Write Operations insert, modify, or delete documents in your MongoDB database.CRUD (Create, Read, Update, Delete) operations allow you to work with the data stored in MongoDB. The CRUD operation documentation is categorized in two sections: Read Operations find and return documents stored within your MongoDB database. Write Operations insert, modify, or delete documents in your MongoDB database."
+
+
+
+    },
+    {
+       "_id":"635b5afc1dafe382a9da8c98",
+      "rating": { "number": 4.3, "badge": "Excellent" },
+      "price": 400,
+      "title": "Service of Proggraming",
+      "image_url": "https://ibb.co/6yXBs3G",
+      "description": "Many beginners can’t start programming because of the lacking of their device. Though there were many apps that were helpful, there was lacking personalization. We arrived with a solution. Programing hero is made in a way that everyone who is a newbie in programming can understand. The whole content is made in the easiest possible way. All you need to just play any game. There are several games in the app, by playing which you can learn programming and you will forget that it’s teaching you something. Programming Hero believes in easy way of learning. The main focus is to reach programming to everyone and eliminate the fear of programming. That stands out Programming Hero from any of the other learning apps.There was lacking personalization. We arrived with a solution. Programing hero is made in a way that everyone who is a newbie in programming can understand. The whole content is made in the easiest possible way. All you need to just play any game. There are several games in the app, by playing which you can learn programming and you will forget that it’s teaching you something. Programming Hero believes in easy way of learning. The main focus is to reach programming to everyone and eliminate the fear of programming. That stands out Programming Hero from any of the other learning apps."
+    },
+
+    {
+       "_id":"635b5b691dafe382a9da8c99",
+      "rating": { "number": 4.5, "badge": "Excellent" },
+      "price": 980,
+      "title": "Service of Python Proggram",
+      "image_url": "https://ibb.co/f419qCF",
+      "description": "Conditional statements help us to execute a particular block for a particular condition. In this tutorial, we will learn how to use the conditional expression to execute a different block of statements. Python provides if and else keywords to set up logical conditions. The elif keyword is also used as conditional statement.Python has become a staple  data science allowing data analysts and other professionals to use the language to conduct complex statistical calculations create data visualizations build machine learning algorithms manipulate and analyze data, and complete other data-related tasks.Python can build a wide range of different data visualizations like line and bar graphs pie charts histograms and 3D plots. Python also has a number of libraries that enable coders to write programs data analysis and machine learning more quickly and efficiently like TensorFlow and Keras.Python is often develop the back end of a website or application—the parts that a user doesnt see. Pythons role web development can include sending data to and from servers processing data and communicating databases URL routing and ensuring security. Python offers several frameworks web development Commonly used ones include Django and Flask."
+    },
+    {
+       "_id":"635b5ba51dafe382a9da8c9a",
+      "rating": { "number": 4.5, "badge": "Excellent" },
+      "price": 980,
+      "title": "Service of Whatsapp",
+      "image_url": "https://ibb.co/mGYgSqP",
+      "description": "WhatsApp web is a desktop version of WhatsApp Messenger launched on 21 January 2015 for android, blackberry, and window phone users only. But later the company launched it for ios and Nokia users as well. Now you can also operate your WhatsApp Messenger on your computer and laptop. This is a new feature of Whatsapp which has been made to use WhatsApp Messenger on Browser. There is no need to download the app. Moreover, it allows the user to send and receive messages directly from their browser.You can use WhatsApp web in the latest web browser and your mobile number should already be connected on your WhatsApp. It doesn’t have any signup or sign in option. In short, it is a browser version of Messenger which allows you to connect through your laptop or desktop. If you are using WhatsApp from the laptop, then your mobile data will also be used. If you turn off the mobile data, then the connection of WhatsApp will also be closed."
+    },
+
+    {
+       "_id":"635b5ba51dafe382a9da8c3s",
+      "rating": { "number": 4.5, "badge": "Excellent" },
+      "price": "60",
+      "title": "Service of ProggramingHero website logo",
+      "image_url": "https://ibb.co/7y1qBB5",
+      "description": "Many beginners can’t start programming because of the lacking of their device. Though there were many apps that were helpful, there was lacking personalization. We arrived with a solution. Programing hero is made in a way that everyone who is a newbie in programming can understand. The whole content is made in the easiest possible way. All you need to just play any game. There are several games in the app, by playing which you can learn programming and you will forget that it’s teaching you something. Programming Hero believes in easy way of learning. The main focus is to reach programming to everyone and eliminate the fear of programming. That stands out Programming Hero from any of the other learning apps.Conditional statements help us to execute a particular block for a particular condition. In this tutorial, we will learn how to use the conditional expression to execute a different block of statements. Python provides if and else keywords to set up logical conditions. The elif keyword is also used as conditional statement."
+    },
+
+    {
+       "_id":"635b5ba51dafe382a9da5n9a",
+      "rating": { "number": 4.5, "badge": "Excellent" },
+      "price": 50 ,
+      "title": "Service of Python software",
+      "image_url": "https://ibb.co/f419qCF",
+      "description":"Python has become a staple  data science allowing data analysts and other professionals to use the language to conduct complex statistical calculations create data visualizations build machine learning algorithms manipulate and analyze data, and complete other data-related tasks.Python can build a wide range of different data visualizations like line and bar graphs pie charts histograms and 3D plots. Python also has a number of libraries that enable coders to write programs data analysis and machine learning more quickly and efficiently like TensorFlow and Keras.Python is often develop the back end of a website or application—the parts that a user doesnt see. Pythons role web development can include sending data to and from servers processing data and communicating databases URL routing and ensuring security. Python offers several frameworks web development Commonly used ones include Django and Flask.Conditional statements help us to execute a particular block for a particular condition. In this tutorial, we will learn how to use the conditional expression to execute a different block of statements. Python provides if and else keywords to set up logical conditions. The elif keyword is also used as conditional statement."
+    }
+]
