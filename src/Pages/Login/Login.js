@@ -1,24 +1,30 @@
 import React, { useContext } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../Contexts/AuthProvider/AuthProvider';
 
 const Login = () => {
 
     const {login}= useContext(AuthContext);
+    const location = useLocation();
+    const navigate = useNavigate();
+
+    const from = location.state?.from?.pathname || '/';
 
 
     const handleLogin = event => {
         event.preventDefault();
         const form = event.target;
-        const email = form.email.vakue;
-        const password = form.password.vakue;
+        const email = form.email.value;
+        const password = form.password.value;
 
         login(email, password)
         .then(result => {
             const user = result.user;
-            console.log(user);
+            console.log(user)
+            form.reset();
+            navigate(from, { replace: true });
         })
-        .catch(err => console.error(err));
+        .catch(err => console.error(err))
 
     }
 
@@ -36,7 +42,7 @@ const Login = () => {
                             <label className="label">
                                 <span className="label-text">Email</span>
                             </label>
-                            <input type="text" name='email' placeholder="email" className="input input-bordered" />
+                            <input type="email" name='email' placeholder="email" className="input input-bordered" />
                         </div>
                         <div className="form-control">
                             <label className="label">

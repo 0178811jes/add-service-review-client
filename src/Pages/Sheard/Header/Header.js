@@ -1,16 +1,38 @@
-import React from 'react';
+import React, { useContext } from 'react';
 
 import { Link } from 'react-router-dom';
+import { AuthContext } from '../../../Contexts/AuthProvider/AuthProvider';
 import SocialLogin from '../SocialLogin/SocialLogin';
 
 
 const Header = () => {
+    const {logout,user} = useContext(AuthContext);
+
+
+  const handleLogout =()=>{
+    logout()
+    .then(()=>{})
+    .catch(e => console.error(e));
+  }
 
 
     const menuItem = <>
         <li className="font-semibold"><Link to='/blogs'>Blogs</Link></li>
         <li className="font-semibold"><Link to='/'>Home</Link></li>
-        <li className="font-semibold"><Link to='/login'>Login</Link></li>
+        
+
+        {
+          user?.email ?
+          <>
+            <li className="font-semibold"><Link to='/orders'>Orders</Link></li>
+            <li onClick={handleLogout} className="btn-ghost"><Link>Logout</Link></li>
+          </>
+          :
+            <li className="font-semibold"><Link to='/login'>Login</Link></li>
+
+        }
+
+
             <SocialLogin></SocialLogin>
     </>
 
