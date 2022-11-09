@@ -11,7 +11,7 @@ const Header = () => {
 
   const handleLogout =()=>{
     logout()
-    .then(()=>{})
+    .then()
     .catch(e => console.error(e));
   }
 
@@ -43,10 +43,10 @@ const Header = () => {
 
        <div>
          <div>
-            <h2 className="text-xl font-extrabold ms-10 ">Softwer Service Center</h2>
+            <h2 className="text-5xl text-center font-extrabold ms-10 ">Softwer Service Center</h2>
             </div>
         
-        <div className="navbar h-20 mb-5 bg-base-100 mt-12">
+        <div className="navbar h-20 mb-5 pt-12 bg-base-100 mt-12 ">
             
             
             <div className="navbar-start">

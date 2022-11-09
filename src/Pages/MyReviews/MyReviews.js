@@ -34,21 +34,41 @@ const MyReviews = () => {
         }
     }
 
+    const handleUpdate = id =>{
+        fetch(`http://localhost:5000/myreviews/${id}`, {
+            method: 'PATCH',
+            headers: { 
+                'content-type': 'application/json'
+            },
+            body: JSON.stringify({status: 'Approved'})
+        })
+        .then(res=> res.json())
+        .then(data => {
+            console.log(data)
+            if(data.modifiedCount > 0) {
+                const remaining = reviews.filter(view=> view._id!==id);
+                const approving = reviews.find(view=> view._id===id);
+                approving.status = 'Approved';
+                const newReviews = [approving, ...remaining];
+                setReviews(newReviews);
+            }
+        })
+
+    }
+
     return (
         <div>
-            <h2 className="text-5xl">You have {reviews.length} orders</h2>
-            <div className="overflow-x-auto w-full">
+            <h2 className="text-5xl text-center">You have {reviews.length} orders</h2>
+            <div className="overflow-x-auto w-full ml-6">
                 <table className="table w-full">
 
                     <thead>
                         <tr>
-                            <label>
-                                <input type="checkbox" className="checkbox" />
-                            </label>
+                            
                             <th>Name</th>
                             <th>Job</th>
                             <th>Favorite Color</th>
-                            <th>message</th>
+                            <th></th>
                         </tr>
                     </thead>
                     <tbody>
@@ -57,6 +77,7 @@ const MyReviews = () => {
                                 key={review._id}
                                 review={review}
                                 reviewDelete={reviewDelete}
+                                handleUpdate={handleUpdate}
                             ></MyReviewRow>)
                         }
                     </tbody>
