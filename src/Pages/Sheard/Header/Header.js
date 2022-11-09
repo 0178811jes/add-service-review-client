@@ -25,8 +25,8 @@ const Header = () => {
           user?.email ?
           <>
             <li className="font-semibold"><Link to='/myreviews'>My Review</Link></li>
-            {/* <li className="font-semibold"><Link to='/orders'>My Review</Link></li> */}
-            <li onClick={handleLogout} className="btn-ghost"><Link>Logout</Link></li>
+            <li className="font-semibold"><Link to='/addservice'>Add Service</Link></li>
+            <li onClick={handleLogout} className="btn-ghost"><Link to='/'>Logout</Link></li>
           </>
           :
             <li className="font-semibold"><Link to='/login'>Login</Link></li>
@@ -43,7 +43,7 @@ const Header = () => {
 
        <div>
          <div>
-            <h2 className="text-5xl text-center font-extrabold ms-10 "> <FaSellcast></FaSellcast> Softwer Service Center</h2>
+            <h2 className="text-5xl font-extrabold ms-10 "> <FaSellcast></FaSellcast> Softwer Service Center</h2>
             </div>
         
         <div className="navbar h-20 mb-5 mt-12 bg-neutral text-neutral-content">
@@ -68,7 +68,7 @@ const Header = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <Link to="'/"className="btn">Get started</Link>
+                <Link className="btn">Get started</Link>
             </div>
         </div>
        </div>

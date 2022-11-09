@@ -53,14 +53,14 @@ const Reviews = () => {
 <form onSubmit={handleorder}>
                 <h2 className="text-4xl">You are about to order: {title}</h2>
                 <h4 className="text-3xl">Price: ${price}</h4>
-                <div className='grid grid-cols-1 lg:grid-cols-2 gap-4'>
+                <div className='grid grid-cols-1 lg:grid-cols-2 gap-4 m-3'>
                 <input name="firstName" type="text" placeholder="first name" className="input input-bordered w-full" />
                 <input name="lastName" type="text" placeholder="last name" className="input input-bordered w-full" />
                 <input name="phone" type="text" placeholder="your phone" className="input input-bordered w-full"  /> 
                 <input name="email" type="text" placeholder="your email" defaultValue={user?.email} className="input input-bordered w-full" />
                 </div>
-                <textarea name="message" className="textarea textarea-bordered h-24 w-full" placeholder="Your message"></textarea>
-                <input className='btn' type="submit" value="Your order" />
+                <textarea name="message" className="textarea textarea-bordered h-24 w-full m-2" placeholder="Your message"></textarea>
+                <input className='btn m-3' type="submit" value="Review Submit" />
             </form>
 
         </div>
