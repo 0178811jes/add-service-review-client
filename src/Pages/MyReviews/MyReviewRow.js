@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 
-const MyReviewRow = ({review}) => {
+const MyReviewRow = ({review, reviewDelete}) => {
 
-    const {serviceName, customer, phone, price, service} = review;
+    const {_id, serviceName, customer, phone, price, service} = review;
     const [reviewService, setReviewService] = useState({});
 
     useEffect(()=>{
@@ -11,21 +11,23 @@ const MyReviewRow = ({review}) => {
         .then(data=> setReviewService(data))
     },[service])
 
+    
+
     return (
         <tr>
             <th>
                 <label>
-                     <button className='btn btn-ghost'>X</button>
+                     <button onClick={()=>reviewDelete(_id)} className='btn btn-ghost'>X</button>
                 </label>
             </th>
             <td>
                 <div className="flex items-center space-x-3">
                     <div className="avatar">
-                        {/* <div className="mask mask-squircle w-24 h-24">
+                        <div className="mask mask-squircle w-24 h-24">
                             {
                                 reviewService?.image_url &&
                                 <img src={reviewService.image_url} alt="Avatar Tailwind CSS Component" />}
-                        </div> */}
+                        </div>
                     </div>
                     <div>
                         <div className="font-bold">{customer}</div>

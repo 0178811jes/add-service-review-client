@@ -14,6 +14,26 @@ const MyReviews = () => {
             .then(data => setReviews(data))
     }, [user?.email])
 
+
+    const reviewDelete= id =>{
+        const proceed= window.confirm('Are you sure,you want cancel this review')
+        if(proceed){
+            fetch(`http://localhost:5000/myreviews/${id}`, {
+                method: 'DELETE'
+            })
+            .then(res=>res.json())
+            .then(data=>{
+                console.log(data);
+                if(data.deletedCount > 0){
+                    alert('Deleted successfully')
+                    const remaining = reviews.filter(view=> view._id!==id);
+                    setReviews(remaining);
+                }
+            })
+            .catch(err=> console.error(err));
+        }
+    }
+
     return (
         <div>
             <h2 className="text-5xl">You have {reviews.length} orders</h2>
@@ -36,6 +56,7 @@ const MyReviews = () => {
                             reviews.map(review => <MyReviewRow
                                 key={review._id}
                                 review={review}
+                                reviewDelete={reviewDelete}
                             ></MyReviewRow>)
                         }
                     </tbody>
