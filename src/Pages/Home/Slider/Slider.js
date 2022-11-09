@@ -1,8 +1,12 @@
 import React from 'react';
-import img1 from '../../../assest/sliderImg/slider/course-1.png'
-import img2 from '../../../assest/sliderImg/slider/course-2.png'
-import img3 from '../../../assest/sliderImg/slider/course-3.png'
-import img4 from '../../../assest/sliderImg/slider/course-4.png'
+import img1 from '../../../assest/pic1.webp'
+import img2 from '../../../assest/pic2.jfif'
+import img3 from '../../../assest/pic3.png'
+import img4 from '../../../assest/pic4.jfif'
+// import img1 from '../../../assest/sliderImg/slider/course-1.png'
+// import img2 from '../../../assest/sliderImg/slider/course-2.png'
+// import img3 from '../../../assest/sliderImg/slider/course-3.png'
+// import img4 from '../../../assest/sliderImg/slider/course-4.png'
 
 
 
