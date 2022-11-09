@@ -7,37 +7,6 @@ import img4 from '../../../assest/pic4.jfif'
 
 
 
-
-const sliderItem = [
-  {
-    image: img1,
-    prev: 6,
-    id: 1,
-    next: 2
-  },
-  {
-    image: img2,
-    prev: 1,
-    id: 2,
-    next: 3
-  },
-  {
-    image: img3,
-    prev: 2,
-    id: 3,
-    next: 4
-  },
-  {
-    image: img4,
-    prev: 3,
-    id: 4,
-    next: 1
-  },
-]
-
-
-
-
 const Slider = () => {
   
   return (

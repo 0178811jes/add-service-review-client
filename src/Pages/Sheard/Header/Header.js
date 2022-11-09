@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-
+import { FaSellcast, FaBiohazard } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 import { AuthContext } from '../../../Contexts/AuthProvider/AuthProvider';
 import SocialLogin from '../SocialLogin/SocialLogin';
@@ -43,10 +43,10 @@ const Header = () => {
 
        <div>
          <div>
-            <h2 className="text-5xl text-center font-extrabold ms-10 ">Softwer Service Center</h2>
+            <h2 className="text-5xl text-center font-extrabold ms-10 "> <FaSellcast></FaSellcast> Softwer Service Center</h2>
             </div>
         
-        <div className="navbar h-20 mb-5 pt-12 bg-base-100 mt-12 ">
+        <div className="navbar h-20 mb-5 mt-12 bg-neutral text-neutral-content">
             
             
             <div className="navbar-start">
@@ -58,8 +58,8 @@ const Header = () => {
                         {menuItem}
                     </ul>
                 </div>
-                <Link to="/" className="btn btn-ghost normal-case text-xl">
-                   
+                <Link to="/" className="btn btn-ghost normal-case text-2xl">
+                   <FaBiohazard></FaBiohazard>  software
                 </Link>
             </div>
             <div className="navbar-center hidden lg:flex">
