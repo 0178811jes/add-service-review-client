@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useLoaderData } from 'react-router-dom';
+import useTitle from '../../../hooks/useTitle';
 import DetailsPage from './DetailsPage';
 
 
@@ -7,6 +8,7 @@ const Details = () => {
     const detailService = useLoaderData();
 
     const [services, setServices] = useState([]);
+    useTitle('Details')
 
     useEffect(() => {
         fetch('http://localhost:5000/review-all')

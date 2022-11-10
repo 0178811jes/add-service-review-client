@@ -1,10 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import useTitle from '../../hooks/useTitle';
 
 const MyReviewRow = ({review, reviewDelete, handleUpdate}) => {
 
     const {_id, serviceName, customer, phone, price, service, status} = review;
     const [reviewService, setReviewService] = useState({});
+    useTitle('My Review')
 
     useEffect(()=>{
         fetch(`http://localhost:5000/review/${service}`)

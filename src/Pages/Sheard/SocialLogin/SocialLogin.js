@@ -1,7 +1,9 @@
 import React, { useContext } from 'react';
 import { AuthContext } from '../../../Contexts/AuthProvider/AuthProvider';
+import useTitle from '../../../hooks/useTitle';
 
 const SocialLogin = () => {
+    useTitle(' Google');
 
     const {googleLogin}= useContext(AuthContext);
 

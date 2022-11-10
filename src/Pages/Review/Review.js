@@ -1,14 +1,16 @@
 import React, { useContext } from 'react';
 import { useLoaderData } from 'react-router-dom';
 import { AuthContext } from '../../Contexts/AuthProvider/AuthProvider';
+import useTitle from '../../hooks/useTitle';
 
 const Reviews = () => {
     const { _id, title, price } = useLoaderData();
     const { user } = useContext(AuthContext);
+    useTitle('Review')
 
-    const btnService =(_id)=>{
+    // const btnService =(_id)=>{
         
-    }
+    // }
 
     const handleorder = event => {
         event.preventDefault();

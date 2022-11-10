@@ -1,10 +1,12 @@
 import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { AuthContext } from '../../Contexts/AuthProvider/AuthProvider';
+import useTitle from '../../hooks/useTitle';
 
 const Signup = () => {
 
     const {createUser} = useContext(AuthContext);
+    useTitle('Sign Up')
 
     const handleSignup = event => {
         event.preventDefault();
