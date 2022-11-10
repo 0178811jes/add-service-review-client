@@ -28,7 +28,7 @@ const Reviews = () => {
             phone,
         }
 
-        fetch('http://localhost:5000/orders', {
+        fetch('https://assignment-11-server-virid.vercel.app/orders', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json',

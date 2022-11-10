@@ -41,12 +41,12 @@ const router = createBrowserRouter([
             {
                 path:'/review/:id',
                 element: <PrivateRoute><Review></Review></PrivateRoute>,
-                loader: ({params})=> fetch(`http://localhost:5000/review/${params.id}`)
+                loader: ({params})=> fetch(`https://assignment-11-server-virid.vercel.app/review/${params.id}`)
             },
             {
                 path:'/details',
                 element: <Details></Details>,
-                loader:()=>fetch(`http://localhost:5000/review`)
+                loader:()=>fetch(`https://assignment-11-server-virid.vercel.app/review`)
             },
             {
                 path:'/myreviews',
@@ -55,7 +55,7 @@ const router = createBrowserRouter([
             {
                 path:'/addservice',
                 element: <PrivateRoute><AddService></AddService></PrivateRoute>,
-                loader:({params})=> fetch(`http://localhost:5000/addservice/${params.id}`)
+                loader:({params})=> fetch(`https://assignment-11-server-virid.vercel.app/addservice/${params.id}`)
             }
 
         ]

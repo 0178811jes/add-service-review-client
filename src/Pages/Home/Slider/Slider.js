@@ -5,6 +5,9 @@ import img3 from '../../../assest/pic3.png'
 import img4 from '../../../assest/pic4.jfif'
 
 
+import './Slider.css';
+
+
 
 
 const Slider = () => {
@@ -39,6 +42,7 @@ const Slider = () => {
           <a href="#slide1" className="btn btn-circle">❯</a>
         </div>
       </div>
+      
     </div>
 
 

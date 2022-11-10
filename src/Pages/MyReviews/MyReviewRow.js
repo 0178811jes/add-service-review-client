@@ -9,7 +9,7 @@ const MyReviewRow = ({review, reviewDelete, handleUpdate}) => {
     useTitle('My Review')
 
     useEffect(()=>{
-        fetch(`http://localhost:5000/review/${service}`)
+        fetch(`https://assignment-11-server-virid.vercel.app/review/${service}`)
         .then(res=>res.json())
         .then(data=> setReviewService(data))
     },[service])

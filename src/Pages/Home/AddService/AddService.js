@@ -11,7 +11,7 @@ const AddService = () => {
     
 
     useEffect(() => {
-        fetch('http://localhost:5000/review')
+        fetch('https://assignment-11-server-virid.vercel.app/review')
             .then(res => res.json())
             .then(data => setServices(data))
 

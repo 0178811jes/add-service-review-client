@@ -26,7 +26,7 @@ const Header = () => {
           <>
             <li className="font-semibold"><Link to='/myreviews'>My Review</Link></li>
             <li className="font-semibold"><Link to='/addservice'>Add Service</Link></li>
-            <li onClick={handleLogout} className="btn-ghost"><Link to='/'>Logout</Link></li>
+            <li onClick={handleLogout} className="btn-ghost"><Link to='/login'>Logout</Link></li>
           </>
           :
             <li className="font-semibold"><Link to='/login'>Login</Link></li>
@@ -68,7 +68,8 @@ const Header = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <Link className="btn">Get started</Link>
+                <Link className="btn btn-default">Get started</Link>
+                
             </div>
         </div>
        </div>
