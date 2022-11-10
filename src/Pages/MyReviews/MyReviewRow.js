@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const MyReviewRow = ({review, reviewDelete, handleUpdate}) => {
 
@@ -40,7 +41,7 @@ const MyReviewRow = ({review, reviewDelete, handleUpdate}) => {
                 <br />
                 <span className="badge badge-ghost badge-sm">$ {price}</span>
             </td>
-            <td>Purple</td>
+            <Link to='/addservice'><td>AddReview</td></Link>
             <th>
                 <button
                 onClick={()=>handleUpdate(_id)}

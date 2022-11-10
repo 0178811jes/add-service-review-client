@@ -9,7 +9,7 @@ const Details = () => {
     const [services, setServices] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:5000/review')
+        fetch('http://localhost:5000/review-all')
             .then(res => res.json())
             .then(data => setServices(data))
     }, [])
