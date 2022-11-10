@@ -8,7 +8,7 @@ const Home = () => {
         <div>
             <Slider></Slider>
             <Services></Services>
-            <Link to='/addservice'><button className="btn btn-primary m-3">Details</button></Link>
+            <Link to='/details'><button className="btn btn-primary m-3">See All</button></Link>
         </div>
     );
 };

@@ -21,6 +21,9 @@ const ServiceCard = ({service}) => {
                         <button className="btn btn-primary">Review</button>
                         
                     </Link>
+                    <Link>
+                        <button className="btn btn-primary">Add Service</button>
+                    </Link>
                    
                 </div>
             </div>
